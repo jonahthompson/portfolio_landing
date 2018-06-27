@@ -1,0 +1,26 @@
+html, body {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+.container {
+	height: 100%;
+	width: 100%;
+}
+.parallax { 
+  background-image: url("images/slc.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.content-wrap {
+	height: 800px;
+	width: 100%;
+	background-color: #050200;
+background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
