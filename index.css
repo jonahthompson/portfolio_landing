@@ -17,11 +17,13 @@ html, body {
  	text-align: center;
 }
 .name {
+	/*font-family: 'Ubuntu', sans-serif;*/
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 4em;
 	margin: 0;
-  display: grid;
   justify-content: middle;
   color: white;
-}
+} 
 .parallax { 
   background-image: url("images/slc.jpg");
   height: 100%; 
