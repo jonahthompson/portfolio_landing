@@ -9,29 +9,65 @@ html, body {
 	height: 100%;
 	width: 100%;
 }
+.navbar {
+	height: 100px;
+	grid-column: 1 / span 2;
+	grid-row: 1;
+}
+.nav-list {
+	list-style-type: none;
+	float: left;
+}
+.nav-item {
+	float: left;
+	font-size: 2em;
+	margin: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+}
+.social-buttons {
+	height: 50px;
+	width: 150px;
+	grid-column: 3;
+	grid-row: 1;
+	justify-self: end;
+	align-self: end;
+}
+.fab {
+	color: #DC1F29;
+}
 .nameplate {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 150px 1fr 1fr;
  	margin: 0;
- 	padding-top: 350px;
- 	height: 150px;
+ 	height: 100%;
  	width: 100%;
  	text-align: center;
 }
 .name {
-	/*font-family: 'Ubuntu', sans-serif;*/
-	font-family: 'Ubuntu', sans-serif;
+	grid-column: 3;
+	grid-row: 1;
+	font-family: 'Oswald', sans-serif;
 	font-size: 4em;
 	margin: 0;
-  justify-content: middle;
-  color: white;
-} 
+  justify-self: start;
+  color: #ffffff;
+}
+.occupation {
+	align-self: end;
+	justify-self: start;
+	font-size: 2.5em;
+	color: #DC1F29;
+}
 .parallax { 
-  background-image: url("images/slc.jpg");
+  background-image: url("images/nike.jpg");
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.7;
+/*  opacity: 0.7;*/
 }
 .content-wrap {
 	height: 800px;
