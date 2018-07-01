@@ -1,7 +1,9 @@
 $(function() {
 	// scroll reveal
 	window.sr = ScrollReveal({ reset: false });
-	sr.reveal('.parallax', { duration: 2500, origin: 'top', scale: 1, distance: '10px', easing: 'cubic-bezier(0.46, 0, 0.07, 1)'});
+	sr.reveal('.parallax', { duration: 2500, origin: 'bottom', scale: 1, distance: '5px', easing: 'cubic-bezier(0.46, 0, 0.07, 1)' });
+
+	sr.reveal('.content-wrap', { duration: 2500, origin: 'bottom', scale: 1, distance: '5px', easing: 'cubic-bezier(0.46, 0, 0.07, 1)', reset: true });
 
 		// interactive ripples
 	$('.parallax').ripples({
