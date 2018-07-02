@@ -25,7 +25,7 @@ $(function() {
 
 		$el.ripples('drop', x, y, dropRadius, strength);
 	}, 400);
-
+	// play/pause for ripple effect
 	$('.parallax').ripples("play");
 
 });
