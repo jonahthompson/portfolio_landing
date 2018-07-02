@@ -72,7 +72,7 @@ html, body {
 .content-wrap {
 	display: grid;
 	grid-template-columns: 100px repeat(6, 1fr) 100px;
-	grid-template-rows: 100px 1fr;
+	grid-template-rows: 120px 1fr 1fr;
 	height: 100%;
 	width: 100%;
 	background-color: #050200;
@@ -88,10 +88,6 @@ html, body {
   justify-self: start;
   color: #ffffff;
 }
-/*.cards-wrap {
-	height: 100%;
-	width: 100%;
-}*/
 .card {
 	margin: 5px;
 	border-radius: 2px;
@@ -99,11 +95,15 @@ html, body {
 	width: 350px;
 	background-color: white;
 }
-.oh_app {
+.card-body {
+	height: 90%;
+	width: 90%;
+}
+.oh-app {
 	grid-column: 2 / span 2;
 	grid-row: 2;
 }
-.old_portfolio {
+.old-portfolio {
 	grid-column: 4 / span 2;
 	grid-row: 2;
 }
