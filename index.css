@@ -14,7 +14,6 @@ html, body {
 	position: fixed;
 	width: 600px;
 	height: 100px;
-	background: none;
 }
 .nav-list {
 	list-style-type: none;
@@ -97,12 +96,16 @@ html, body {
 	background-color: white;
 }
 .card-body {
-	height: 90%;
-	width: 90%;
+	height: 100%;
+	width: 100%;
 }
 .oh-app {
 	grid-column: 2 / span 2;
 	grid-row: 2;
+	background-image: url('images/oh_app.jpg');
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .old-portfolio {
 	grid-column: 4 / span 2;
@@ -111,4 +114,8 @@ html, body {
 .nautify {
 	grid-column: 6 / span 2;
 	grid-row: 2;
+	background-image: url('images/nautify_app.jpg');
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
