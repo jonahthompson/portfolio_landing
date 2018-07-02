@@ -72,9 +72,42 @@ html, body {
 .content-wrap {
 	display: grid;
 	grid-template-columns: 100px repeat(6, 1fr) 100px;
+	grid-template-rows: 100px 1fr;
 	height: 100%;
 	width: 100%;
 	background-color: #050200;
 	background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.title {
+	grid-column: 2;
+	grid-row: 1;
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	margin: 0;
+  justify-self: start;
+  color: #ffffff;
+}
+/*.cards-wrap {
+	height: 100%;
+	width: 100%;
+}*/
+.card {
+	margin: 5px;
+	border-radius: 2px;
+	height: 200px;
+	width: 350px;
+	background-color: white;
+}
+.oh_app {
+	grid-column: 2 / span 2;
+	grid-row: 2;
+}
+.old_portfolio {
+	grid-column: 4 / span 2;
+	grid-row: 2;
+}
+.nautify {
+	grid-column: 6 / span 2;
+	grid-row: 2;
 }
