@@ -7,7 +7,8 @@ $(function() {
 
 	sr.reveal('.title', { duration: 1500, origin: 'left', distance: '50px' })
 
-	sr.reveal('.card', { duration: 1500, origin: 'bottom', distance: '40px' })
+	sr.reveal('.card', { duration: 1500, origin: 'bottom', distance: '40px' }, 50)
+	
 		// interactive ripples
 	$('.parallax').ripples({
 		resolution: 512,
